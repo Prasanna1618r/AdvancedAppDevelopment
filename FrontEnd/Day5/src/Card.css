@@ -1,0 +1,35 @@
+.card3 {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: azure;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card3-image {
+    padding: 10px;
+}
+
+.card3-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card3-content {
+    padding: 10px;
+    width: 90%;
+}
+
+.card3-content h2 {
+    margin: 0;
+    align-items: center;
+}
+
+.card3-content p {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}

@@ -1,0 +1,55 @@
+.apply-now-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 80px 0px 0px 25px;
+}
+
+.apply-now-button:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (max-width: 768px) {
+    .apply-now-button {
+        font-size: 14px;
+    }
+}
+
+.card3 {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: azure;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card3-image {
+    padding: 10px;
+}
+
+.card3-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card3-content {
+    padding: 10px;
+    width: 90%;
+}
+
+.card3-content h2 {
+    margin: 0;
+    align-items: center;
+}
+
+.card3-content p {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}

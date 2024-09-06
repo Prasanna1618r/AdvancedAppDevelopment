@@ -1,0 +1,56 @@
+/* Add more attractive and colorful styles for the FAQ page */
+
+/* Style for the FAQ header */
+.header-details {
+    text-align: center;
+  }
+  
+  /* Style for the FAQ list */
+  .faq-list {
+    margin-top: 30px;
+  }
+  
+  /* Style for each FAQ item */
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  /* Style for the question container */
+  .question-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style for the question text */
+  .question-container h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the plus/minus icon */
+  .plus {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* Change color of plus/minus icon on open */
+  .plus.open {
+    color: #ff6600; /* You can choose any color you prefer */
+  }
+  
+  /* Style for the answer text */
+  .answer {
+    margin-top: 10px;
+    color: #333;
+    display: none; /* Initially hide the answer */
+  }
+  
+  /* Show answer when corresponding FAQ item is open */
+  .open .answer {
+    display: block;
+  }
+  

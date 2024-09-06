@@ -1,0 +1,52 @@
+
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  color: #060000;
+  padding: 20px 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-content {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  background-image: url("C:/Users/GOKULPANDY/Downloads/MAIN1.jpg");
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.feature {
+  flex-basis: 30%;
+  margin: 0 10px;
+}
+
+footer {
+  margin-right: 550px;
+  padding-top: 50px;
+  color: #000000;
+  padding: rgb(0, 0, 0)px 0;
+  bottom: 0;
+  width: 100%;
+}
