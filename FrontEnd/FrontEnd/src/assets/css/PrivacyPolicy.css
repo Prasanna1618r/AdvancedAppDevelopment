@@ -1,0 +1,21 @@
+.privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .privacy-policy h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-policy p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Add more CSS styles to make the page more attractive and interactive */
+  

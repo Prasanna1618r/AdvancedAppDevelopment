@@ -1,0 +1,21 @@
+.contact-us-container {
+    margin: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .contact-info div {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
