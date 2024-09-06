@@ -1,0 +1,74 @@
+.auth-form-container1 {
+  text-align: center;
+  display: block;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-image: url("https://res.cloudinary.com/dx3051zza/image/upload/v1708940165/ruijia-wang-BS9w1QCkJys-unsplash_xuynsw.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  margin:0%;
+}
+.auth-form-container, .login-form {
+  display: block;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .auth-form-container1 {
+    padding:20px 0px 20px 0px;
+  }
+}
+
+.l1{
+  margin: 160px 0px 20px 20px;
+  padding: 0px 0px 0px 0px;
+  color: black;
+}
+
+.em{
+  text-align: center;
+  color:black;
+  padding: 10px;
+  margin:10px 290px 0px 0px;
+}
+.pa{
+  text-align: center;
+  color: black;
+  padding: 10px;
+  margin:10px 260px 0px 0px;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10%;
+}
+
+.i1 {
+  margin: 10px 0px 10px 0px;
+  padding: 20px 20px 20px 10px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.button1 {
+  border: none;
+  background-color: rgb(247, 8, 8);
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0px 20px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+  width: fit-content;
+}
+.link-btn1 {
+  background: none;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+  margin:0px 0px 0px 0px;
+}
